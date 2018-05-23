@@ -39,6 +39,12 @@
     <ClInclude Include="InsertDlg.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="DBtoListCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DatabaseWork.cpp">
@@ -57,6 +63,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="InsertDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DBtoListCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateDlg.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

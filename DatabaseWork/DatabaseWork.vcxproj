@@ -186,16 +186,19 @@
   <ItemGroup>
     <ClInclude Include="DatabaseWork.h" />
     <ClInclude Include="DatabaseWorkDlg.h" />
+    <ClInclude Include="DBtoListCtrl.h" />
     <ClInclude Include="DeleteDlg.h" />
     <ClInclude Include="InsertDlg.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="SelectDlg.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="UpdateDlg.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DatabaseWork.cpp" />
     <ClCompile Include="DatabaseWorkDlg.cpp" />
+    <ClCompile Include="DBtoListCtrl.cpp" />
     <ClCompile Include="DeleteDlg.cpp" />
     <ClCompile Include="InsertDlg.cpp" />
     <ClCompile Include="SelectDlg.cpp" />
@@ -205,6 +208,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="UpdateDlg.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="DatabaseWork.rc" />
