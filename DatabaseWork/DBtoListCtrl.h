@@ -7,6 +7,7 @@ public:
 	~DBtoListCtrl();
 
 	void GerenateLC();
+	void addNewRecord(CRecordset* new_rs);
 private:
 	CListCtrl * list;
 	CRecordset* result;
